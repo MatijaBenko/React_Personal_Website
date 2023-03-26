@@ -11,7 +11,7 @@ function Header(): JSX.Element {
                 <div className="wrapper flex justify-between items-center h-screen w-full px-20 lg:justify-center lg:px-6">
                     <div className="content lg:text-center">
                         <div className="btn py-3">
-                            <button className=' border-2 border-[#b0aaaa] font-bold text-white bg-[linear-gradient(90deg,#bf00a3,#000dff)] p-4 rounded-2xl'>Welcome to my Portfolio</button>
+                            <button disabled className=' border-2 border-[#b0aaaa] font-bold text-white bg-[linear-gradient(90deg,#bf00a3,#000dff)] p-4 rounded-2xl'>Welcome to my Portfolio</button>
                         </div>
                         <h1 className='text-white italic text-5xl font-bold'>I code all day, lift all night!</h1>
                     </div>

@@ -1,3 +1,5 @@
+import { IoLogoYoutube } from "react-icons/io5";
+
 function Footer(): JSX.Element {
   return (
     <>
@@ -13,6 +15,12 @@ function Footer(): JSX.Element {
             </a>
             <a href="https://github.com/MatijaBenko" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-github border-[2px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCDWwfmz-xKo0uuImx3Bn6mA"
+              target="_blank" rel="noreferrer"
+            >
+              <i className="fa-brands border-[2px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"><IoLogoYoutube /></i>
             </a>
           </div>
         </div>

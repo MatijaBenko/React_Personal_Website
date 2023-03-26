@@ -5,7 +5,7 @@ function AboutMe(): JSX.Element {
     return (
         <>
             <div id="aboutme" className="flex flex-row items-center justify-center border-b-8 border-black">
-                <div className="container mx-auto p-10 flex flex-row items-center justify-center bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700">
+                <div className="container mx-auto p-10 flex flex-row items-center justify-center bg-gradient-to-r from-indigo-800 via-purple-700 to-pink-600">
                     <div className="w-1/2 ">
                         <img
                             src={Logo}

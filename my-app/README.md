@@ -48,3 +48,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Assets
 
+1. aerospace PNG Designed By 588ku from https://pngtree.com/freepng/human-lunar-day-alien-aerospace-universe_3779738.html?sol=downref&id=bef
+
+2. dazzling PNG Designed By 58pic from https://pngtree.com/freepng/blindfolded-character-pattern-elements_7410796.html?sol=downref&id=bef
+
+3. <a href="https://www.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_7671274.htm#query=game%20background&position=0&from_view=search&track=ais">Image by upklyak</a> on Freepik
+
+4. <a href="https://www.freepik.com/free-vector/whale-swims-deep-space-illustration_5901228.htm#page=2&query=game%20background&position=40&from_view=search&track=ais">Image by vectorpouch</a> on Freepik
