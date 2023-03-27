@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react_personal_website/static/css/main.3f1a4868.css",
+    "main.js": "/react_personal_website/static/js/main.bfb279ef.js",
+    "static/js/787.9d17a612.chunk.js": "/react_personal_website/static/js/787.9d17a612.chunk.js",
+    "static/media/freepik_banner_bg.jpg": "/react_personal_website/static/media/freepik_banner_bg.0075b9eca28eaedff9d4.jpg",
+    "static/media/contact_img.png": "/react_personal_website/static/media/contact_img.7192dd66d737ac77f639.png",
+    "static/media/freepik_bg.jpg": "/react_personal_website/static/media/freepik_bg.74ad889cc463f1045936.jpg",
+    "static/media/Logo.jpg": "/react_personal_website/static/media/Logo.b9d6b894e9e30ea023f6.jpg",
+    "static/media/spaceship.png": "/react_personal_website/static/media/spaceship.e7d84433feb51d3c9aed.png",
+    "index.html": "/react_personal_website/index.html",
+    "main.3f1a4868.css.map": "/react_personal_website/static/css/main.3f1a4868.css.map",
+    "main.bfb279ef.js.map": "/react_personal_website/static/js/main.bfb279ef.js.map",
+    "787.9d17a612.chunk.js.map": "/react_personal_website/static/js/787.9d17a612.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f1a4868.css",
+    "static/js/main.bfb279ef.js"
+  ]
+}
