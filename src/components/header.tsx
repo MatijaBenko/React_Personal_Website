@@ -6,7 +6,7 @@ import "../styles.css";
 function Header(): JSX.Element {
     return (
         <>
-            <div id='home' style={{ backgroundImage: `url(${bg})` }} className=' bg-center bg-cover bg-no-repeat h-screen flex flex-col border-b-8 border-black'>
+            <div id='home' style={{ backgroundImage: `url(${bg})` }} className=' bg-center bg-cover bg-no-repeat h-screen flex flex-col border-b-4 border-black'>
                 <Navbar />
                 <div className="wrapper flex justify-between items-center h-screen w-full px-20 lg:justify-center lg:px-6">
                     <div className="content lg:text-center">

@@ -3,7 +3,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 function Footer(): JSX.Element {
   return (
     <>
-      <div className="footer bg-[#171717]">
+      <div className="footer border-y-4 border-black bg-[#171717]">
         <div className="wrap flex justify-between items-center px-12 text-white font-bold py-6 tl:px-4 tl:py-4 ">
           <h1 className="text-3xl">Benko</h1>
           <div className="flex gap-4 cursor-pointer ">

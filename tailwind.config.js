@@ -5,9 +5,12 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'xl': {'max': '1623px'},
-      'lg': {'max': '1023px'},
-      'md': {'max': '723px'},
+      "xs": { 'max': '449px' },
+      'sm': { 'min': '450px', 'max': '767px' },
+      'md': { 'min': '768px', 'max': '1023px' },
+      'lg': { 'min': '1024px', 'max': '1279px' },
+      'xl': { 'min': '1280px', 'max': '1535px' },
+      '2xl': { 'min': '1536px' },
     },
     extend: {
       backgroundImage: {

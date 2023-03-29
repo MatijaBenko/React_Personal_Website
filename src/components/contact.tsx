@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
 
   return (
     <>
-      <div className={"contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full"}>
+      <div className={"contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full border-y-4 border-black"}>
         <div className={"wrapper flex justify-center py-16 gap-60 lg:py-12"}>
           <div style={{ transform: "translateX(-100px) translateY(-45px)" }} className={"imgbox lg:hidden"}>
             <img className={"w-[525px] h-full"} src={img} alt={""} />
