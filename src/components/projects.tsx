@@ -55,9 +55,9 @@ function Projects(): JSX.Element {
 
   return (
     <>
-      <div id="content" className="projects border-y-4 border-black bg-[#171717] text-white py-10">
+      <div id="content" className="projects border-y-4 border-black bg-[#171717] text-white pt-20">
         <h1 className="text-center text-4xl font-bold py-6">Content</h1>
-        <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">
+        <p className="text-center max-w-[1000px] lg:px-5 mx-auto text-[#939191]">
           Hey there! Check out some of the cool content I've built during my free time.
           I had a blast working on these and I hope you'll have fun checking them out too!
           And hey, if you haven't already, come hang out with me on my YouTube channel.

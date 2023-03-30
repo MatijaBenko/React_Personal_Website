@@ -13,9 +13,9 @@ function Skills(): JSX.Element {
             <div
                 id="skills"
                 style={{ backgroundImage: `url(${bg})` }}
-                className="wrapper h-full bg-no-repeat bg-center bg-cover border-y-4 border-black p-16 lg:p-4"
+                className="h-full bg-no-repeat bg-center bg-cover border-y-4 border-black p-16 lg:pt-32 lg:pb-20"
             >
-                <div className="skills-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
+                <div className="text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
                     <h1 className="text-4xl font-bold">Skills</h1>
                     <p className="text-lg py-3 font-semibold italic">
                         Few but not all
