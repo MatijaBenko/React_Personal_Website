@@ -19,15 +19,25 @@ function Header(): JSX.Element {
                     md:flex md:flex-col md:items-center
                     sm:flex sm:flex-col sm:items-center 
                     xs:flex xs:flex-col xs:items-center">
-                        <div className="btn py-3 w-80 xs:w-60">
-                            <button disabled className='text-2xl border-2 border-[#FFFFFF] font-bold text-white bg-[linear-gradient(90deg,#bf00a3,#000dff)] p-4 rounded-xl xs:text-base'>
+                        <div className="btn py-3 w-80 
+                        xl:w-72
+                        lg:w-64
+                        md:w-64
+                        sm:w-64
+                        xs:w-52">
+                            <button disabled className='text-2xl border-2 border-[#FFFFFF] font-bold text-white bg-[linear-gradient(90deg,#bf00a3,#000dff)] p-4 rounded-xl 
+                            xl:text-xl
+                            lg:text-lg
+                            md:text-lg
+                            sm:text-base
+                            xs:text-sm'>
                                 Welcome to my Portfolio
                             </button>
                         </div>
                         <h1 className='text-white italic text-5xl font-bold
                         lg:text-black 
                         md:text-black
-                        sm:text-4xl sm:text-black
+                        sm:text-3xl sm:text-black
                         xs:text-xl xs:text-black'>
                             I code all day, lift all night!
                         </h1>
