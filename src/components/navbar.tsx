@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { IoLogoYoutube } from "react-icons/io5";
 import "../styles.css";
 
 const Navbar: React.FC = () => {
@@ -108,8 +107,7 @@ const Navbar: React.FC = () => {
                             rel="noreferrer"
                             onClick={handleAnchorClickRequest}
                         >
-                            <i className="fa-brands border-[2px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black">
-                                <IoLogoYoutube />
+                            <i className="fa-brands fa-youtube border-[2px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black">
                             </i>
                         </a>
                     </div>

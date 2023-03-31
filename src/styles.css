@@ -50,7 +50,7 @@ swiper {
 .banner-spaceship {
   position: absolute;
   animation: spaceship 2s infinite normal linear;
-  -webkit-animation: spaceship  25s infinite normal linear;
+  -webkit-animation: spaceship 25s infinite normal linear;
   width: 150px;
 }
 
@@ -63,5 +63,91 @@ swiper {
   100% {
     right: 110%;
     top: 11%;
+  }
+}
+
+/* Icon Size for Skills Components */
+
+@media (min-width: 1671px) {
+  /* biggest screens */
+  .fa-unity-skills,
+  .fa-node-js-skills,
+  .fa-github-skills,
+  .fa-react-skills,
+  .fa-python-skills,
+  .fa-sketch-skills,
+  .fa-aws-skills,
+  .fa-android-skills {
+    font-size: 8em;
+  }
+}
+
+@media (max-width: 1670px) and (min-width: 1280px) {
+  /* xl screens */
+  .fa-unity-skills,
+  .fa-node-js-skills,
+  .fa-github-skills,
+  .fa-react-skills,
+  .fa-python-skills,
+  .fa-sketch-skills,
+  .fa-aws-skills,
+  .fa-android-skills {
+    font-size: 6em;
+  }
+}
+
+@media (max-width: 1279px) and (min-width: 1024px) {
+  /* lg screens */
+  .fa-unity-skills,
+  .fa-node-js-skills,
+  .fa-github-skills,
+  .fa-react-skills,
+  .fa-python-skills,
+  .fa-sketch-skills,
+  .fa-aws-skills,
+  .fa-android-skills {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  /* md screens */
+  .fa-unity-skills,
+  .fa-node-js-skills,
+  .fa-github-skills,
+  .fa-react-skills,
+  .fa-python-skills,
+  .fa-sketch-skills,
+  .fa-aws-skills,
+  .fa-android-skills {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 450px) {
+  /* sm screens */
+  .fa-unity-skills,
+  .fa-node-js-skills,
+  .fa-github-skills,
+  .fa-react-skills,
+  .fa-python-skills,
+  .fa-sketch-skills,
+  .fa-aws-skills,
+  .fa-android-skills {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 449px) {
+  /* xs screens */
+  .fa-unity-skills,
+  .fa-node-js-skills,
+  .fa-github-skills,
+  .fa-react-skills,
+  .fa-python-skills,
+  .fa-sketch-skills,
+  .fa-aws-skills,
+  .fa-android-skills {
+    font-size: 3em;
   }
 }

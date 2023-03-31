@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "../styles.css";
 import { Navigation, Pagination } from "swiper";
-import { SiUnrealengine } from "react-icons/si";
 import bg from "../assets/images/freepik_banner_bg.jpg";
 
 
@@ -78,75 +77,73 @@ function Skills(): JSX.Element {
                         >
                             <SwiperSlide className="bg-[#171717]">
                                 {" "}
-                                <div className=" bg-[#171717] fa-8x py-1">
+                                <div className="bg-[#171717] py-1 ">
                                     <div>
-                                        <div className=" fa-brands fa-unity border-[3px] border-white p-7 py-5 rounded-[100%]" />
+                                        <div className=" fa-brands fa-unity fa-unity-skills border-[3px] border-white p-7 py-5 rounded-[100%] " />
                                         <h1 className="font-bold text-2xl my-2">Unity</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className=" bg-[#171717]">
                                 {" "}
-                                <div className=" bg-[#171717] fa-8x py-1">
+                                <div className=" bg-[#171717] py-1">
                                     <div >
-                                        <div className=" fa-brands fa-github border-[3px] border-white p-7 py-5 rounded-[100%]" />
+                                        <div className=" fa-brands fa-github fa-github-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
                                         <h1 className="font-bold text-2xl my-2">GitHub</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className=" bg-[#171717]">
+                            <SwiperSlide className="bg-[#171717]">
                                 {" "}
-                                <div className=" bg-[#171717] fa-8x py-1">
+                                <div className="bg-[#171717] py-1">
                                     <div >
-                                        <div className=" fa-brands fa-node-js border-[3px] border-white p-7 py-5 rounded-[100%]" />
+                                        <div className="fa-brands fa-node-js fa-node-js-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
                                         <h1 className="font-bold text-2xl my-2">Node.js</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className=" bg-[#171717]">
                                 {" "}
-                                <div className=" bg-[#171717] fa-8x py-1">
+                                <div className="bg-[#171717] py-1">
                                     <div>
-                                        <div className=" fa-brands fa-react border-[3px] border-white p-7 py-5 rounded-[100%]" />
+                                        <div className="fa-brands fa-react fa-react-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
                                         <h1 className="font-bold text-2xl my-2">React</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className=" bg-[#171717]">
+                            <SwiperSlide className="bg-[#171717]">
                                 {" "}
-                                <div className=" bg-[#171717] fa-8x py-1">
+                                <div className="bg-[#171717]  py-1">
                                     <div>
-                                        <div className=" fa-brands fa-python border-[3px] border-white p-7 py-5 rounded-[100%]" />
+                                        <div className="fa-brands fa-python fa-python-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
                                         <h1 className="font-bold text-2xl my-2">Python</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className=" bg-[#171717]">
                                 {" "}
-                                <div className=" bg-[#171717] fa-8x py-1">
-                                    <div style={{ transform: "translateY(-5px)" }} >
-                                        <div className=" fa-brands fa-sketch border-[3px] border-white p-7 py-5 rounded-[100%]" />
+                                <div className="bg-[#171717] py-1">
+                                    <div style={{ transform: "translateY(10px)" }} >
+                                        <div className="fa-brands fa-sketch fa-sketch-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
                                         <h1 className="font-bold text-2xl my-2">Sketch</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className=" bg-[#171717]">
+                            <SwiperSlide className="bg-[#171717]">
                                 {" "}
-                                <div className=" bg-[#171717] fa-7x py-1">
+                                <div className="bg-[#171717] py-1">
                                     <div style={{ transform: "translateY(10px)" }} >
-                                        <div className=" fa-brands fa-aws border-[3px] border-white p-4 py-7 rounded-[100%]" />
+                                        <div className="fa-brands fa-aws fa-aws-skills border-[3px] border-white p-4 py-7 rounded-[100%]" />
                                         <h1 className="font-bold text-2xl my-2">AWS</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className=" bg-[#171717]">
                                 {" "}
-                                <div className=" bg-[#171717]  py-1 ">
+                                <div className="bg-[#171717] py-1">
                                     <div style={{ transform: "translateY(10px)" }} >
-                                        <div className=" fa-brands">
-                                            <SiUnrealengine className="bg-[#171717] fa-10x" />
-                                        </div>
-                                        <h1 className=" font-bold text-2xl my-2">Unreal Engine 5</h1>
+                                        <div className="fa-brands fa-android fa-android-skills border-[3px] border-white p-4 py-7 rounded-[100%]" />
+                                        <h1 className=" font-bold text-2xl my-2">Android Studio</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
