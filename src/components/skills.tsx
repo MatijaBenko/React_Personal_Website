@@ -1,5 +1,5 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React, { useState, useEffect } from "react";
+import { SwiperSlide, Swiper } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "../styles.css";
@@ -7,23 +7,68 @@ import { Navigation, Pagination } from "swiper";
 import { SiUnrealengine } from "react-icons/si";
 import bg from "../assets/images/freepik_banner_bg.jpg";
 
+
 function Skills(): JSX.Element {
+    const [slidesPerView, setSlidesPerView] = useState<number>(1);
+    const [slidesSpaceBetween, setSlidesSpaceBetween] = useState<number>(40);
+
+    useEffect(() => {
+        const handleScreenResize = () => {
+            const screenWidth = window.innerWidth;
+            if (screenWidth < 450) {
+                setSlidesPerView(1);
+                setSlidesSpaceBetween(40);
+            } else if (screenWidth < 768) {
+                setSlidesPerView(1);
+                setSlidesSpaceBetween(40);
+            } else if (screenWidth < 1024) {
+                setSlidesPerView(2);
+                setSlidesSpaceBetween(40);
+            } else if (screenWidth < 1279) {
+                setSlidesPerView(3);
+                setSlidesSpaceBetween(40);
+            } else if (screenWidth < 1535) {
+                setSlidesPerView(4);
+                setSlidesSpaceBetween(40);
+            } else {
+                setSlidesPerView(5);
+                setSlidesSpaceBetween(40);
+            }
+        }
+        window.addEventListener('resize', handleScreenResize);
+        handleScreenResize();
+
+        return () => {
+            window.removeEventListener('resize', handleScreenResize);
+        }
+    });
+
     return (
         <>
             <div
                 id="skills"
                 style={{ backgroundImage: `url(${bg})` }}
-                className="h-full bg-no-repeat bg-center bg-cover border-y-4 border-black p-16 lg:pt-32 lg:pb-20"
+                className="h-full bg-no-repeat bg-center bg-cover border-y-4 border-black p-16 
+                xl:pt-28 xl:pb-20 
+                lg:pt-32 lg:pb-20
+                md:pt-32 md:pb-20
+                sm:pt-32 sm:pb-20
+                xs:pt-32 xs:pb-20"
             >
-                <div className="text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
+                <div className="text-center text-white bg-[#171717] p-10 rounded-[50px] 
+                xl:p-8 
+                lg:p-2
+                md:p-2
+                sm:p-2
+                xs:p-2">
                     <h1 className="text-4xl font-bold">Skills</h1>
                     <p className="text-lg py-3 font-semibold italic">
                         Few but not all
                     </p>
-                    <div className="box flex  justify-between  items-center bg-[#171717] my-6">
+                    <div className="box flex justify-between items-center bg-[#171717] my-6">
                         <Swiper
-                            slidesPerView={3}
-                            spaceBetween={40}
+                            slidesPerView={slidesPerView}
+                            spaceBetween={slidesSpaceBetween}
                             pagination={{
                                 clickable: true,
                             }}
