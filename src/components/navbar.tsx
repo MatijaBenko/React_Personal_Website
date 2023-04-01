@@ -41,18 +41,33 @@ const Navbar: React.FC = () => {
 
     return (
         <>
-            <div className="navbarcon flex justify-between items-center px-20 py-7 bg-transparent z-40 text-white xl:px-10 lg:px-10 md:px-8 sm:px-8 xs:px-8 fixed w-full">
-                <h1 className="text-4xl xs:text-3xl font-bold">
+            <div className="navbarcon flex justify-between items-center px-20 py-7 bg-transparent z-40 text-white fixed w-full
+            xl:px-10 
+            lg:px-10 
+            md:px-8 
+            sm:px-8 
+            xs:px-8
+            2xs:px-4">
+                <h1 className="text-4xl font-bold 
+                xs:text-3xl
+                2xs:text-xl">
                     Matija Benko
                 </h1>
                 <nav
                     className={`flex justify-center items-center gap-x-10 
-                        ${isMenuHidden && "lg:hidden"} lg:fixed lg:top-0 -z-20  lg:flex-col lg:w-full lg:bg-[#171717] lg:h-[475px] lg:left-0 h-full lg:items-start  lg:pl-10  cursor-pointer lg:pt-20 
-                        ${isMenuHidden && "md:hidden"} md:fixed md:top-0 -z-20  md:flex-col md:w-full md:bg-[#171717] md:h-[450px] md:left-0 h-full md:items-start  md:pl-10 cursor-pointer md:pt-20
-                        ${isMenuHidden && "sm:hidden"} sm:fixed sm:top-0 -z-20  sm:flex-col sm:w-full sm:bg-[#171717] sm:h-[425px] sm:left-0 h-full sm:items-start  sm:pl-10 cursor-pointer sm:pt-20
-                        ${isMenuHidden && "xs:hidden"} xs:fixed xs:top-0 -z-20  xs:flex-col xs:w-full xs:bg-[#171717] xs:h-[400px] xs:left-0 h-full xs:items-start  xs:pl-10 cursor-pointer xs:pt-20`}
+                        ${isMenuHidden && "lg:hidden"} lg:fixed lg:top-0 -z-20 lg:flex-col lg:w-full lg:bg-[#171717] lg:h-[475px] lg:left-0 h-full lg:items-start lg:pl-10 cursor-pointer lg:pt-20 
+                        ${isMenuHidden && "md:hidden"} md:fixed md:top-0 -z-20 md:flex-col md:w-full md:bg-[#171717] md:h-[450px] md:left-0 h-full md:items-start md:pl-10 cursor-pointer md:pt-20
+                        ${isMenuHidden && "sm:hidden"} sm:fixed sm:top-0 -z-20 sm:flex-col sm:w-full sm:bg-[#171717] sm:h-[425px] sm:left-0 h-full sm:items-start sm:pl-10 cursor-pointer sm:pt-20
+                        ${isMenuHidden && "xs:hidden"} xs:fixed xs:top-0 -z-20 xs:flex-col xs:w-full xs:bg-[#171717] xs:h-[400px] xs:left-0 h-full xs:items-start xs:pl-10 cursor-pointer xs:pt-20
+                        ${isMenuHidden && "2xs:hidden"} 2xs:fixed 2xs:top-0 -z-20 2xs:flex-col 2xs:w-full 2xs:bg-[#171717] 2xs:h-[400px] 2xs:left-0 h-full 2xs:items-start 2xs:pl-4 cursor-pointer 2xs:pt-16`}
                 >
-                    <ul className=" flex gap-10 text-3xl mr-4 xl:text-2xl lg:text-2xl lg:flex-col lg:gap-6 md:text-2xl md:flex-col md:gap-6 sm:flex-col sm:gap-6 sm:text-2xl xs:text-xl xs:flex-col xs:gap-6">
+                    <ul className=" flex gap-10 text-3xl mr-4 
+                    xl:text-2xl 
+                    lg:text-2xl lg:flex-col lg:gap-6 
+                    md:text-2xl md:flex-col md:gap-6 
+                    sm:flex-col sm:gap-6 sm:text-2xl 
+                    xs:text-xl xs:flex-col xs:gap-6
+                    2xs:text-base 2xs:flex-col 2xs:gap-5 2xs:pt-4">
                         <li className="nav-bar-anchor-links">
                             <AnchorLink href="#home" onClick={handleAnchorClickRequest}>
                                 Home
@@ -75,7 +90,12 @@ const Navbar: React.FC = () => {
                         </li>
                     </ul>
 
-                    <div className="icon text-lg flex gap-4 lg:gap-8 lg:my-7 md:gap-8 md:my-5 sm:gap-8 sm:my-4 xs:gap-7 xs:my-3">
+                    <div className="icon text-lg flex gap-4 
+                    lg:gap-8 lg:my-7 
+                    md:gap-8 md:my-5 
+                    sm:gap-8 sm:my-4 
+                    xs:gap-7 xs:my-3
+                    2xs:gap-4 2xs:my-3 2xs:grid 2xs:grid-cols-2">
                         <a
                             href="https://twitter.com/MatijaBenko_"
                             target="_blank"
@@ -114,7 +134,8 @@ const Navbar: React.FC = () => {
                     <div className="btn">
                         <button
                             onClick={handleRequest}
-                            className="border-[2px] border-white border-solid py-2 px-6 hover:bg-white hover:text-black font-bold"
+                            className="border-[2px] border-white border-solid py-2 px-6 hover:bg-white hover:text-black font-bold
+                            2xs:px-2 2xs:py-1"
                         >
                             Let's Connect
                         </button>
@@ -122,7 +143,7 @@ const Navbar: React.FC = () => {
                 </nav>
                 <i
                     onClick={(e) => setisMenuHidden(!isMenuHidden)}
-                    className="fa-solid fa-bars hidden lg:block md:block sm:block xs:block text-3xl cursor-pointer"
+                    className="fa-solid fa-bars hidden lg:block md:block sm:block xs:block 2xs:block text-3xl cursor-pointer"
                 ></i>
             </div>
         </>

@@ -66,6 +66,20 @@ swiper {
   }
 }
 
+@media screen and (max-width: 300px) {
+  @keyframes spaceship {
+    0% {
+      right: -40%;
+      top: 11%;
+    }
+
+    100% {
+      right: 130%;
+      top: 11%;
+    }
+  }
+}
+
 /* Icon Size for Skills Components */
 
 @media (min-width: 1671px) {
