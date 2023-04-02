@@ -2,9 +2,11 @@ function Footer(): JSX.Element {
   return (
     <>
       <div className="footer border-y-4 border-black bg-[#171717]">
-        <div className="wrap flex justify-between items-center px-12 text-white font-bold py-6 tl:px-4 tl:py-4 ">
+        <div className="wrap flex justify-between items-center px-12 text-white font-bold py-6 tl:px-4 tl:py-4">
           <h1 className="text-3xl">Benko</h1>
-          <div className="flex gap-4 cursor-pointer ">
+          <div className="flex gap-4 cursor-pointer
+          xs:gap-2 xs:flex-col
+          2xs:gap-2 2xs:flex-col">
             <a href="https://twitter.com/MatijaBenko_" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-twitter border-[2px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
