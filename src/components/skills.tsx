@@ -150,7 +150,7 @@ function Skills(): JSX.Element {
                                 {" "}
                                 <div className="bg-[#171717] py-1">
                                     <div >
-                                        <div className="fa-brands fa-aws fa-aws-skills border-[3px] border-white p-3 py-5 rounded-[100%]
+                                        <div className="fa-brands fa-aws fa-aws-skills border-[3px] border-white p-4 py-5 rounded-[100%]
                                         2xs:p-3 2xs:border-[2px]" />
                                         <h1 className="font-bold text-2xl my-2
                                         2xs:text-lg">AWS</h1>
@@ -161,7 +161,8 @@ function Skills(): JSX.Element {
                                 {" "}
                                 <div className="bg-[#171717] py-1">
                                     <div>
-                                        <div className="fa-brands fa-android fa-android-skills border-[3px] border-white p-3 py-5 rounded-[100%]
+                                        <div className="fa-brands fa-android fa-android-skills border-[3px] border-white p-4 py-5 rounded-[100%]
+                                        xs:p-4
                                         2xs:p-3 2xs:border-[2px]" />
                                         <h1 className="font-bold text-2xl my-2
                                         2xs:text-lg">Android Studio</h1>
