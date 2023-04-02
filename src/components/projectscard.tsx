@@ -16,7 +16,7 @@ function ProjectCard({ item }: ProjectCardProps) {
     <>
       <div className="img-box w-[450px] lg2:w-auto mx-auto flex justify-center items-center relative overflow-hidden rounded-3xl
       sm:w-[350px]
-      xs:w-[250px]
+      xs:w-[225px]
       2xs:w-[150px]">
         <img src={item.img} alt="" className="w-full" />
         <div className="p absolute top-[-100%] left-0 h-full w-full text-center bg-[#b004b0b7] p-4 pt-20
