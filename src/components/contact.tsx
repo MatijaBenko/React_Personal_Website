@@ -134,8 +134,8 @@ const Contact: React.FC = () => {
                 required
               ></textarea>
               <button className="bg-[linear-gradient(180deg,#b004b0,#38097a)] text-white border-white border-[3px] py-[16px] rounded-lg px-8 my-8 w-42 font-bold 
-              xs:w-36 xs:text-xs xs:flex xs:self-center
-              2xs:w-36 2xs:text-xs 2xs:flex 2xs:self-center" type="submit">
+              xs:w-48 xs:text-xs xs:flex xs:self-center xs:px-14
+              2xs:w-48 2xs:text-xs 2xs:flex 2xs:self-center 2xs:px-14" type="submit">
                 Submit Form
               </button>
             </form>
