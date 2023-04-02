@@ -99,6 +99,10 @@
   .skillSwiper .swiper-button-next {
     transform: translateY(-25px);
   }
+
+  .contact-picture{
+    transform: translateX(-140px) translateY(-25px);
+  }
 }
 
 @media (max-width: 1670px) and (min-width: 1280px) {
@@ -117,6 +121,9 @@
   .skillSwiper .swiper-button-next {
     transform: translateY(-25px);
   }
+  .contact-picture{
+    transform: translateX(-40px) translateY(-25px);
+  }
 }
 
 @media (max-width: 1279px) and (min-width: 1024px) {
@@ -134,6 +141,10 @@
   .skillSwiper .swiper-button-prev,
   .skillSwiper .swiper-button-next {
     transform: translateY(-25px);
+  }
+  
+  .contact-picture{
+    transform: translateY(30px) translateX(-25px);
   }
 }
 
