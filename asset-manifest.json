@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/benzby_prsn/static/css/main.584a0280.css",
-    "main.js": "/benzby_prsn/static/js/main.1fb5656f.js",
+    "main.css": "/benzby_prsn/static/css/main.14004004.css",
+    "main.js": "/benzby_prsn/static/js/main.22b8a50d.js",
     "static/js/787.8979e68e.chunk.js": "/benzby_prsn/static/js/787.8979e68e.chunk.js",
     "static/media/freepik_banner_bg.jpg": "/benzby_prsn/static/media/freepik_banner_bg.0075b9eca28eaedff9d4.jpg",
     "static/media/contact_img.png": "/benzby_prsn/static/media/contact_img.7192dd66d737ac77f639.png",
@@ -9,12 +9,12 @@
     "static/media/Logo.jpg": "/benzby_prsn/static/media/Logo.b9d6b894e9e30ea023f6.jpg",
     "static/media/spaceship.png": "/benzby_prsn/static/media/spaceship.e7d84433feb51d3c9aed.png",
     "index.html": "/benzby_prsn/index.html",
-    "main.584a0280.css.map": "/benzby_prsn/static/css/main.584a0280.css.map",
-    "main.1fb5656f.js.map": "/benzby_prsn/static/js/main.1fb5656f.js.map",
+    "main.14004004.css.map": "/benzby_prsn/static/css/main.14004004.css.map",
+    "main.22b8a50d.js.map": "/benzby_prsn/static/js/main.22b8a50d.js.map",
     "787.8979e68e.chunk.js.map": "/benzby_prsn/static/js/787.8979e68e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.584a0280.css",
-    "static/js/main.1fb5656f.js"
+    "static/css/main.14004004.css",
+    "static/js/main.22b8a50d.js"
   ]
 }
