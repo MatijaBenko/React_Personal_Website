@@ -52,16 +52,21 @@ function Skills(): JSX.Element {
                 lg:pt-32 lg:pb-20
                 md:pt-32 md:pb-20
                 sm:pt-32 sm:pb-20
-                xs:pt-32 xs:pb-20"
+                xs:pt-32 xs:pb-20
+                2xs:pt-32 2xs:pb-20"
             >
                 <div className="text-center text-white bg-[#171717] p-10 rounded-[50px] 
                 xl:p-8 
                 lg:p-2
                 md:p-2
                 sm:p-2
-                xs:p-2">
-                    <h1 className="text-4xl font-bold">Skills</h1>
-                    <p className="text-lg py-3 font-semibold italic">
+                xs:p-2
+                2xs:p-2">
+                    <h1 className="text-4xl font-bold
+                    2xs:text-xl
+                    ">Skills</h1>
+                    <p className="text-lg py-3 font-semibold italic
+                    2xs:text-xs">
                         Few but not all
                     </p>
                     <div className="box flex justify-between items-center bg-[#171717] my-6">
@@ -77,19 +82,12 @@ function Skills(): JSX.Element {
                         >
                             <SwiperSlide className="bg-[#171717]">
                                 {" "}
-                                <div className="bg-[#171717] py-1 ">
+                                <div className="bg-[#171717] py-1">
                                     <div>
-                                        <div className=" fa-brands fa-unity fa-unity-skills border-[3px] border-white p-7 py-5 rounded-[100%] " />
-                                        <h1 className="font-bold text-2xl my-2">Unity</h1>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className=" bg-[#171717]">
-                                {" "}
-                                <div className=" bg-[#171717] py-1">
-                                    <div >
-                                        <div className=" fa-brands fa-github fa-github-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
-                                        <h1 className="font-bold text-2xl my-2">GitHub</h1>
+                                        <div className="fa-brands fa-unity fa-unity-skills border-[3px] border-white p-7 py-5 rounded-[100%]
+                                        2xs:p-3 2xs:border-[2px]" />
+                                        <h1 className="font-bold text-2xl my-2
+                                        2xs:text-lg">Unity</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -97,8 +95,65 @@ function Skills(): JSX.Element {
                                 {" "}
                                 <div className="bg-[#171717] py-1">
                                     <div >
-                                        <div className="fa-brands fa-node-js fa-node-js-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
-                                        <h1 className="font-bold text-2xl my-2">Node.js</h1>
+                                        <div className="fa-brands fa-github fa-github-skills border-[3px] border-white p-7 py-5 rounded-[100%]
+                                        2xs:p-3 2xs:border-[2px]" />
+                                        <h1 className="font-bold text-2xl my-2
+                                        2xs:text-lg">GitHub</h1>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="bg-[#171717]">
+                                {" "}
+                                <div className="bg-[#171717] py-1">
+                                    <div >
+                                        <div className="fa-brands fa-node-js fa-node-js-skills border-[3px] border-white p-7 py-5 rounded-[100%]
+                                        2xs:p-3 2xs:border-[2px]" />
+                                        <h1 className="font-bold text-2xl my-2
+                                        2xs:text-lg">Node.js</h1>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="bg-[#171717]">
+                                {" "}
+                                <div className="bg-[#171717] py-1">
+                                    <div>
+                                        <div className="fa-brands fa-react fa-react-skills border-[3px] border-white p-7 py-5 rounded-[100%]
+                                        2xs:p-3 2xs:border-[2px]" />
+                                        <h1 className="font-bold text-2xl my-2
+                                        2xs:text-lg">React</h1>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="bg-[#171717]">
+                                {" "}
+                                <div className="bg-[#171717] py-1">
+                                    <div>
+                                        <div className="fa-brands fa-python fa-python-skills border-[3px] border-white p-7 py-5 rounded-[100%]
+                                        2xs:p-3 2xs:border-[2px]" />
+                                        <h1 className="font-bold text-2xl my-2
+                                        2xs:text-lg">Python</h1>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="bg-[#171717]">
+                                {" "}
+                                <div className="bg-[#171717] py-1">
+                                    <div >
+                                        <div className="fa-brands fa-sketch fa-sketch-skills border-[3px] border-white p-7 py-5 rounded-[100%]
+                                        2xs:p-3 2xs:border-[2px]" />
+                                        <h1 className="font-bold text-2xl my-2
+                                        2xs:text-lg">Sketch</h1>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="bg-[#171717]">
+                                {" "}
+                                <div className="bg-[#171717] py-1">
+                                    <div >
+                                        <div className="fa-brands fa-aws fa-aws-skills border-[3px] border-white p-4 py-7 rounded-[100%]
+                                        2xs:p-3 2xs:border-[2px]" />
+                                        <h1 className="font-bold text-2xl my-2
+                                        2xs:text-lg">AWS</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -106,44 +161,10 @@ function Skills(): JSX.Element {
                                 {" "}
                                 <div className="bg-[#171717] py-1">
                                     <div>
-                                        <div className="fa-brands fa-react fa-react-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
-                                        <h1 className="font-bold text-2xl my-2">React</h1>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="bg-[#171717]">
-                                {" "}
-                                <div className="bg-[#171717]  py-1">
-                                    <div>
-                                        <div className="fa-brands fa-python fa-python-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
-                                        <h1 className="font-bold text-2xl my-2">Python</h1>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className=" bg-[#171717]">
-                                {" "}
-                                <div className="bg-[#171717] py-1">
-                                    <div style={{ transform: "translateY(10px)" }} >
-                                        <div className="fa-brands fa-sketch fa-sketch-skills border-[3px] border-white p-7 py-5 rounded-[100%]" />
-                                        <h1 className="font-bold text-2xl my-2">Sketch</h1>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="bg-[#171717]">
-                                {" "}
-                                <div className="bg-[#171717] py-1">
-                                    <div style={{ transform: "translateY(10px)" }} >
-                                        <div className="fa-brands fa-aws fa-aws-skills border-[3px] border-white p-4 py-7 rounded-[100%]" />
-                                        <h1 className="font-bold text-2xl my-2">AWS</h1>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className=" bg-[#171717]">
-                                {" "}
-                                <div className="bg-[#171717] py-1">
-                                    <div style={{ transform: "translateY(10px)" }} >
-                                        <div className="fa-brands fa-android fa-android-skills border-[3px] border-white p-4 py-7 rounded-[100%]" />
-                                        <h1 className=" font-bold text-2xl my-2">Android Studio</h1>
+                                        <div className="fa-brands fa-android fa-android-skills border-[3px] border-white p-4 py-7 rounded-[100%]
+                                        2xs:p-3 2xs:border-[2px]" />
+                                        <h1 className="font-bold text-2xl my-2
+                                        2xs:text-lg">Android Studio</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
