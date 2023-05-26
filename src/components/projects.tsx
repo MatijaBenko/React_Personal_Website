@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+ import React, { useState } from "react";
 import img from "../assets/images/freepik_bg.jpg";
 
 import "../styles.css";
