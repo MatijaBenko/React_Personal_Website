@@ -52,8 +52,13 @@ The profile image, along with the font size, color, and style can be adjusted by
 Add a description by updating the paragraph element.
 
 ### `contact.tsx`
-Controls the "Contact Me" text box at the bottom of the page
+Controls the "Contact Me" text box at the bottom of the page.
 
+Adjust the styling of the text box by adjusting the respective attributes tag.
+
+Change the size of the text box by changing the row and col values, and change the maximum number of characters by changing the value of "maxLength," all of which are found in the "textarea" tag.
+
+Set where the input message is sent to by changing the url for the "form action" variable.
 
 ### `footer.tsx`
 Controls the social media links found at the top and bottom of the page, as well as the contact form at the bottom.
@@ -63,6 +68,8 @@ To add a social media, update the corresponding href with a link.
 
 ### `header.tsx`
 Controls the title and banner of the page.
+
+Update the header content and styling in the h1 tag; Change the background banner by changing the url in the "backgroundImage" variable.
 
 ### `navbar.tsx`
 Controls the page redirect tabs at the top of the page. The default tabs are "Home", "About Me", "Skills", and "Content."
@@ -80,4 +87,9 @@ Additional project cards can be created by adding additional project id number, 
 Controls the styling of the project, blog, and video icons.
 
 Styling changes will be reflected across all of the project icons.
+
+### `skills.tsx`
+Controls the content of the "skills" shuffle bar.
+
+Each skill icon has its own div, in which you can edit the name and image of each icon.
 
