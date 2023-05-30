@@ -39,19 +39,57 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 
-## Assets
 
-1. aerospace PNG Designed By 588ku from https://pngtree.com/freepng/human-lunar-day-alien-aerospace-universe_3779738.html?sol=downref&id=bef
+## Components
 
-2. dazzling PNG Designed By 58pic from https://pngtree.com/freepng/blindfolded-character-pattern-elements_7410796.html?sol=downref&id=bef
+### `aboutme.tsx`
+Contains the "About Me" section information.
 
-3. <a href="https://www.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_7671274.htm#query=game%20background&position=0&from_view=search&track=ais">Image by upklyak</a> on Freepik
+The profile image, along with the font size, color, and style can be adjusted by altering the "className" attributes. 
 
-4. <a href="https://www.freepik.com/free-vector/whale-swims-deep-space-illustration_5901228.htm#page=2&query=game%20background&position=40&from_view=search&track=ais">Image by vectorpouch</a> on Freepik
+Add a description by updating the paragraph element.
+
+### `contact.tsx`
+Controls the "Contact Me" text box at the bottom of the page.
+
+Adjust the styling of the text box by adjusting the respective attributes tag.
+
+Change the size of the text box by changing the row and col values, and change the maximum number of characters by changing the value of "maxLength," all of which are found in the "textarea" tag.
+
+Set where the input message is sent to by changing the url for the "form action" variable.
+
+### `footer.tsx`
+Controls the social media links found at the top and bottom of the page, as well as the contact form at the bottom.
+
+Includes support for Twitter, Instagram, GitHub, Youtube, and LinkedIn.\
+To add a social media, update the corresponding href with a link.
+
+### `header.tsx`
+Controls the title and banner of the page.
+
+Update the header content and styling in the h1 tag; Change the background banner by changing the url in the "backgroundImage" variable.
+
+### `navbar.tsx`
+Controls the page redirect tabs at the top of the page. The default tabs are "Home", "About Me", "Skills", and "Content."
+
+Tab names and where they redirect can be edited by altering the div matching the tab's name.
+
+### `projects.tsx` 
+Controls the "Content" section where you can display projects, blogs, videos, or other content. 
+
+Add content descriptions, thumbnails, and links by filling out the "projects" function.
+
+Additional project cards can be created by adding additional project id number, as well as including a title, description and thumbnail that matches the predefined formatting.
+
+### `projectscard.tsx`
+Controls the styling of the project, blog, and video icons.
+
+Styling changes will be reflected across all of the project icons.
+
+### `skills.tsx`
+Controls the content of the "skills" shuffle bar.
+
+Each skill icon has its own div, in which you can edit the name and image of each icon.
+
